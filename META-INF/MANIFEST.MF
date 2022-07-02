@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Main-Class: net.joojn.Main
+Premain-Class: net.joojn.Main
+Agent-Class: net.joojn.Main
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true
