@@ -42,9 +42,7 @@ public class Main {
             return;
         }
 
-        inst.addTransformer(new LunarClassLoader());
-
-        //inst.addTransformer(new TestTransformer());
+        inst.addTransformer(new Transformer());
     }
 
     public static void agentmain(String agentArgs, Instrumentation inst)
